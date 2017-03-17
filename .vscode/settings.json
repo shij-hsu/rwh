@@ -1,0 +1,1301 @@
+{
+
+  // 以像素为单位控制字号。
+  "editor.fontSize": 14,
+
+  // 控制已更新文件的自动保存。接受的值:“off”、"afterDelay”、“onFocusChange”(编辑器失去焦点)、“onWindowChange”(窗口失去焦点)。如果设置为“afterDelay”，则可在 "files.autoSaveDelay" 中配置延迟。
+  "files.autoSave": "off",
+
+  // 控制字体系列。
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+
+  // 一个制表符等于的空格数。该设置在 `editor.detectIndentation` 启用时根据文件内容进行重写。
+  "editor.tabSize": 4,
+
+  // 控制编辑器中呈现空白字符的方式，可能为“无”、“边界”和“全部”。“边界”选项不会在单词之间呈现单空格。
+  "editor.renderWhitespace": "none",
+
+  // 配置 glob 模式以排除文件和文件夹。
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true
+  },
+
+  // 控制光标样式，接受的值为 "block"、"block-outline"、"line"、"line-thin" 、"underline" 和 "underline-thin"
+  "editor.cursorStyle": "line",
+
+  // 按 "Tab" 时插入空格。该设置在 `editor.detectIndentation` 启用时根据文件内容进行重写。
+  "editor.insertSpaces": true,
+
+  // 控制换行方式。可以选择:
+  //  - "off" (禁用换行)，
+  //  - "on" (视区换行)，
+  //  - "wordWrapColumn" (在 "editor.wordWrapColumn" 处换行)或
+  //  - "bounded" (在最小视区和 "editor.wordWrapColumn" 处换行)。
+  "editor.wordWrap": "off",
+
+  // 将文件关联配置为语言(如: "*.extension": "html")。这些关联的优先级高于已安装语言的默认关联。
+  "files.associations": {},
+
+  // 当其前缀匹配时插入代码段。当 "quickSuggestions" 未启用时，效果最佳。
+  "editor.tabCompletion": false,
+
+  // 控制字体系列。
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+
+  // 控制字体粗细。
+  "editor.fontWeight": "normal",
+
+  // 以像素为单位控制字号。
+  "editor.fontSize": 14,
+
+  // 控制行高。使用 0 通过字号计算行高。
+  "editor.lineHeight": 0,
+
+  // 控制行号的显示。可能的值为“开”、“关”和“相对”。“相对”将显示从当前光标位置开始计数的行数。
+  "editor.lineNumbers": "on",
+
+  // 显示垂直标尺的列
+  "editor.rulers": [],
+
+  // 执行文字相关的导航或操作时将用作文字分隔符的字符
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+
+  // 一个制表符等于的空格数。该设置在 `editor.detectIndentation` 启用时根据文件内容进行重写。
+  "editor.tabSize": 4,
+
+  // 按 "Tab" 时插入空格。该设置在 `editor.detectIndentation` 启用时根据文件内容进行重写。
+  "editor.insertSpaces": true,
+
+  // 当打开文件时，将基于文件内容检测 "editor.tabSize" 和 "editor.insertSpaces"。
+  "editor.detectIndentation": true,
+
+  // 控制选取范围是否有圆角
+  "editor.roundedSelection": true,
+
+  // 控制编辑器是否可以滚动到最后一行之后
+  "editor.scrollBeyondLastLine": true,
+
+  // 控制是否显示 minimap
+  "editor.minimap.enabled": false,
+
+  // 呈现某行上的实际字符(与颜色块相反)
+  "editor.minimap.renderCharacters": true,
+
+  // 限制最小映射的宽度，尽量多地呈现特定数量的列
+  "editor.minimap.maxColumn": 120,
+
+  // 控制换行方式。可以选择:
+  //  - "off" (禁用换行)，
+  //  - "on" (视区换行)，
+  //  - "wordWrapColumn" (在 "editor.wordWrapColumn" 处换行)或
+  //  - "bounded" (在最小视区和 "editor.wordWrapColumn" 处换行)。
+  "editor.wordWrap": "off",
+
+  // 在 "editor.wordWrap" 为 "wordWrapColumn" 或 "bounded" 时控制编辑器列的换行。
+  "editor.wordWrapColumn": 80,
+
+  // 控制换行的行的缩进。可以是"none"、 "same" 或 "indent"。
+  "editor.wrappingIndent": "same",
+
+  // 要对鼠标滚轮滚动事件的 "deltaX" 和 "deltaY" 使用的乘数 
+  "editor.mouseWheelScrollSensitivity": 1,
+
+  // 控制键入时是否应显示快速建议
+  "editor.quickSuggestions": true,
+
+  // 控制延迟多少毫秒后将显示快速建议
+  "editor.quickSuggestionsDelay": 10,
+
+  // 启用参数提示
+  "editor.parameterHints": true,
+
+  // 控制编辑器是否应该在左括号后自动插入右括号
+  "editor.autoClosingBrackets": true,
+
+  // 控制编辑器是否应在键入后自动设置行的格式
+  "editor.formatOnType": false,
+
+  // 控制编辑器是否应自动设置粘贴内容的格式。格式化程序必须可用并且能设置文档中某一范围的格式。
+  "editor.formatOnPaste": false,
+
+  // 控制键入触发器字符时是否应自动显示建议
+  "editor.suggestOnTriggerCharacters": true,
+
+  // 控制除了 "Tab" 键以外，是否还应接受建议的 "Enter" 键。帮助避免“插入新行”或“接受建议”之间出现歧义。
+  "editor.acceptSuggestionOnEnter": true,
+
+  // 控制是否应接受建议的提交字符。例如，在 JavaScript 中，分号(";")可以为提交字符，可接受建议并键入该字符。
+  "editor.acceptSuggestionOnCommitCharacter": true,
+
+  // 控制是否将代码段与其他建议一起显示以及它们的排序方式。
+  "editor.snippetSuggestions": "bottom",
+
+  // 控制没有选择内容的复制是否复制当前行。
+  "editor.emptySelectionClipboard": true,
+
+  // 启用基于字的建议。
+  "editor.wordBasedSuggestions": true,
+
+  // 建议小组件的字号
+  "editor.suggestFontSize": 0,
+
+  // 建议小组件的行高
+  "editor.suggestLineHeight": 0,
+
+  // 控制编辑器是否应突出显示选项的近似匹配
+  "editor.selectionHighlight": true,
+
+  // 控制可在概述标尺同一位置显示的效果数量
+  "editor.overviewRulerLanes": 3,
+
+  // 控制光标动画样式，可能的值为 "blink"、"smooth"、"phase"、"expand" 和 "solid"
+  "editor.cursorBlinking": "blink",
+
+  // 通过使用鼠标滚轮同时按住 Ctrl 可缩放编辑器的字体
+  "editor.mouseWheelZoom": false,
+
+  // 控制光标样式，接受的值为 "block"、"block-outline"、"line"、"line-thin" 、"underline" 和 "underline-thin"
+  "editor.cursorStyle": "line",
+
+  // 启用字体连字
+  "editor.fontLigatures": false,
+
+  // 控制光标是否应隐藏在概述标尺中。
+  "editor.hideCursorInOverviewRuler": false,
+
+  // 控制编辑器中呈现空白字符的方式，可能为“无”、“边界”和“全部”。“边界”选项不会在单词之间呈现单空格。
+  "editor.renderWhitespace": "none",
+
+  // 控制编辑器是否应呈现控制字符
+  "editor.renderControlCharacters": false,
+
+  // 控制编辑器是否应呈现缩进参考线
+  "editor.renderIndentGuides": false,
+
+  // 控制编辑器应如何呈现当前行突出显示，可能为“无”、“装订线”、“线”和“全部”。
+  "editor.renderLineHighlight": "line",
+
+  // 控制编辑器是否显示代码滤镜
+  "editor.codeLens": true,
+
+  // 控制编辑器是否启用代码折叠功能
+  "editor.folding": true,
+
+  // 当选择其中一项时，将突出显示匹配的括号。
+  "editor.matchBrackets": true,
+
+  // 控制编辑器是否应呈现垂直字形边距。字形边距最常用于调试。
+  "editor.glyphMargin": true,
+
+  // 在制表位后插入和删除空格
+  "editor.useTabStops": true,
+
+  // 删除尾随自动插入的空格
+  "editor.trimAutoWhitespace": true,
+
+  // 即使在双击编辑器内容或按 Esc 键时，也要保持速览编辑器的打开状态。
+  "editor.stablePeek": false,
+
+  // 控制编辑器是否应该允许通过拖放移动所选项。
+  "editor.dragAndDrop": false,
+
+  // 控制 Diff 编辑器以并排或内联形式显示差异
+  "diffEditor.renderSideBySide": true,
+
+  // 控制差异编辑器是否将对前导空格或尾随空格的更改显示为差异
+  "diffEditor.ignoreTrimWhitespace": true,
+
+  // 控制差异编辑器是否为已添加/删除的更改显示 +/- 指示符号
+  "diffEditor.renderIndicators": true,
+
+  // 保存时设置文件的格式。格式化程序必须可用，不能自动保存文件，并且不能关闭编辑器。
+  "editor.formatOnSave": false,
+
+
+  // 启用后，按 TAB 键时，将展开 Emmet 缩写。
+  "emmet.triggerExpansionOnTab": true,
+
+  // 用于修改 Emmet 的某些操作和解决程序的首选项。
+  "emmet.preferences": {},
+
+  // 为指定的语法定义配置文件或使用带有特定规则的配置文件。
+  "emmet.syntaxProfiles": {},
+
+  // emmet 缩写不应在其中展开的语言数组。
+  "emmet.excludeLanguages": [
+    "markdown"
+  ],
+
+  // 转至包含 Emmet 配置文件、片段和首选项的文件的路径
+  "emmet.extensionsPath": null,
+
+
+  // 控制打开的编辑器是否显示在选项卡中。
+  "workbench.editor.showTabs": true,
+
+  // 控制编辑器的选项卡关闭按钮的位置，或当设置为 "off" 时禁用关闭它们。
+  "workbench.editor.tabCloseButton": "right",
+
+  // 控制打开的编辑器是否随图标一起显示。这还需启用图标主题。
+  "workbench.editor.showIcons": true,
+
+  // 控制打开的编辑器是否显示为预览。预览编辑器可以重新使用，直到将其保留(例如，双击或编辑)。
+  "workbench.editor.enablePreview": true,
+
+  // 控制 Quick Open 中打开的编辑器是否显示为预览。预览编辑器可以重新使用，直到将其保留(例如，通过双击或编辑)。
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+
+  // 控制打开编辑器的位置。选择“左侧”或“右侧”以在当前活动位置的左侧或右侧打开编辑器。选择“第一个”或“最后一个”以从当前活动位置独立打开编辑器。
+  "workbench.editor.openPositioning": "right",
+
+  // 控制 Quick Open 是否应在失去焦点时自动关闭。
+  "workbench.quickOpen.closeOnFocusLost": true,
+
+  // 控制打开设置时是否打开显示所有默认设置的编辑器。
+  "workbench.settings.openDefaultSettings": true,
+
+  // 控制边栏的位置。它可显示在工作台的左侧或右侧。
+  "workbench.sideBar.location": "left",
+
+  // 控制工作台底部状态栏的可见性。
+  "workbench.statusBar.visible": true,
+
+  // 控制工作台中活动栏的可见性。
+  "workbench.activityBar.visible": true,
+
+  // 指定用在工作台中的颜色主题。
+"workbench.colorTheme": "Default Dark+",
+
+  // 指定用在工作台中的图标主题。
+  "workbench.iconTheme": null,
+
+
+  // When enabled, will show the Welcome page on startup.
+  "workbench.welcome.enabled": true,
+
+
+  // 控制是否应在新窗口中打开文件。
+  // - default: 文件将在该文件的文件夹打开的窗口中打开，或在上一个活动窗口中打开，除非该文件通过平台或从查找程序(仅限 macOS)打开
+  // - on: 文件将在新窗口中打开
+  // - off: 文件将在该文件的文件夹打开的窗口中打开，或在上一个活动窗口中打开
+  // 注意，可能仍会存在忽略此设置的情况(例如当使用 -new-window 或 -reuse-window 命令行选项时)。
+  "window.openFilesInNewWindow": "default",
+
+  // 控制文件夹应在新窗口中打开还是替换上一活动窗口。
+  // - default: 文件夹将在新窗口中打开，除非文件是从应用程序内选取的(例如通过“文件”菜单)
+  // - on: 文件夹将在新窗口中打开
+  // - off: 文件夹将替换上一活动窗口
+  // 注意，可能仍会存在忽略此设置的情况(例如当使用 -new-window 或 -reuse-window 命令行选项时)。
+  "window.openFoldersInNewWindow": "default",
+
+  // 控制重启后重新打开文件夹的方式。选择“none”表示永不重新打开文件夹，选择“one”表示重新打开最后使用的一个文件夹，或选择“all”表示打开上次会话的所有文件夹。
+  "window.reopenFolders": "one",
+
+  // 如果窗口已退出全屏模式，控制其是否应还原为全屏模式。
+  "window.restoreFullscreen": false,
+
+  // 调整窗口的缩放级别。原始大小是 0，每次递增(例如 1)或递减(例如 -1)表示放大或缩小 20%。也可以输入小数以便以更精细的粒度调整缩放级别。
+  "window.zoomLevel": 0,
+
+  // 基于活动编辑器控制窗口标题。基于上下文替换变量:
+  // ${activeEditorShort}: 例如 myFile.txt
+  // ${activeEditorMedium}: 例如 myFolder/myFile.txt
+  // ${activeEditorLong}:  例如 /Users/Development/myProject/myFile.txt
+  // ${rootName}: 例如 myProject
+  // ${rootPath}: 例如 /Users/Development/myProject
+  // ${appName}: 例如 VS Code
+  // ${dirty}: 一个更新指示器，指示活动编辑器是否更新
+  // ${separator}: 一个条件分隔符("-")，仅在左右是具有值的变量时才显示
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+
+  // 控制打开新窗口的尺寸。默认情况下，新窗口将以小尺寸在屏幕的中央打开。当设置为 "inherit" 时，窗口将获取与上一活动窗口相同的尺寸。当设置为 "maximized" 时，窗口将以最大化形式打开，如果配置为 "fullscreen"，窗口将以全屏形式打开。
+  "window.newWindowDimensions": "default",
+
+  // 控制菜单栏的可见性。“切换”设置表示隐藏菜单栏，按一次 Alt 键则将显示此菜单栏。默认情况下，除非窗口为全屏，否则菜单栏可见。
+  "window.menuBarVisibility": "default",
+
+  // 如果已启用，将自动更改为高对比度主题；如果 Windows 正在使用高对比度主题，则当离开 Windows 高对比度主题时会更改为深色主题。
+  "window.autoDetectHighContrast": true,
+
+
+  // 配置 glob 模式以排除文件和文件夹。
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true
+  },
+
+  // 将文件关联配置为语言(如: "*.extension": "html")。这些关联的优先级高于已安装语言的默认关联。
+  "files.associations": {},
+
+  // 读取和编写文件时将使用的默认字符集编码。
+  "files.encoding": "utf8",
+
+  // 默认行尾字符。
+  "files.eol": "\r\n",
+
+  // 启用后，将在保存文件时剪裁尾随空格。
+  "files.trimTrailingWhitespace": false,
+
+  // 启用后，保存文件时在文件末尾插入一个最终新行。
+  "files.insertFinalNewline": false,
+
+  // 控制已更新文件的自动保存。接受的值:“off”、"afterDelay”、“onFocusChange”(编辑器失去焦点)、“onWindowChange”(窗口失去焦点)。如果设置为“afterDelay”，则可在 "files.autoSaveDelay" 中配置延迟。
+  "files.autoSave": "off",
+
+  // 控制延迟(以秒为单位)，在该延迟后将自动保存更新后的文件。仅在 "files.autoSave'" 设置为“afterDelay”时适用。
+  "files.autoSaveDelay": 1000,
+
+  // 配置文件路径的 glob 模式以从文件监视排除。更改此设置要求重启。如果在启动时遇到 Code 消耗大量 CPU 时间，则可以排除大型文件夹以减少初始加载。
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true
+  },
+
+  // 控制是否在会话间记住未保存的文件，以允许在退出编辑器时跳过保存提示。
+  "files.hotExit": "onExit",
+
+
+  // 控制打开 Zen Mode 是否也会将工作台置于全屏模式。
+  "zenMode.fullScreen": true,
+
+  // 控制打开 Zen 模式是否也会隐藏工作台选项卡。
+  "zenMode.hideTabs": true,
+
+  // 控制打开 Zen 模式是否也会隐藏工作台底部的状态栏。
+  "zenMode.hideStatusBar": true,
+
+  // 控制如果某窗口已退出 zen 模式，是否应还原到 zen 模式。
+  "zenMode.restore": false,
+
+
+  // 在“打开的编辑器”窗格中显示的编辑器数量。将其设置为 0 可隐藏窗格。
+  "explorer.openEditors.visible": 9,
+
+  // 控制打开的编辑器部分的高度是否应动态适应元素数量。
+  "explorer.openEditors.dynamicHeight": true,
+
+  // 控制资源管理器是否应在打开文件时自动显示并选择它们。
+  "explorer.autoReveal": true,
+
+  // 控制资源管理器是否应该允许通过拖放移动文件和文件夹。
+  "explorer.enableDragAndDrop": true,
+
+
+  // 配置 glob 模式以在搜索中排除文件和文件夹。从 files.exclude 设置中继承所有 glob 模式。
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+
+  // 配置为在 Quick Open 文件结果中包括全局符号搜索的结果。
+  "search.quickOpen.includeSymbols": false,
+
+
+  // 配置是否从更新通道接收自动更新。更改后需要重启。
+  "update.channel": "default",
+
+
+  // 是否启用了 GIT
+  "git.enabled": true,
+
+  // 可执行 GIT 的路径
+  "git.path": null,
+
+  // 是否已启用自动刷新
+  "git.autorefresh": true,
+
+  // 是否启用了自动提取。
+  "git.autofetch": true,
+
+  // 是否应警告提交长段消息。
+  "git.enableLongCommitWarning": true,
+
+  // 始终允许大型存储库由 Code 托管。
+  "git.allowLargeRepositories": false,
+
+  // 同步 Git 存储库前请先进行确认。
+  "git.confirmSync": true,
+
+  // 控制 git 徽章计数器。
+  "git.countBadge": "all",
+
+  // 控制列出哪些分支类型。
+  "git.checkoutType": "all",
+
+
+  // 要使用的代理设置。如果尚未设置，则将从 http_proxy 和 https_proxy 环境变量获取
+  "http.proxy": "",
+
+  // 是否应根据提供的 CA 列表验证代理服务器证书。
+  "http.proxyStrictSSL": true,
+
+  // 要作为每个网络请求的 "Proxy-Authorization" 标头发送的值。
+  "http.proxyAuthorization": null,
+
+
+  // Controls CSS validation and problem severities.
+  // 启用或禁用所有验证
+  "css.validate": true,
+
+  // 启用或禁用颜色修饰器
+  "css.colorDecorators.enable": true,
+
+  // 使用供应商特定前缀时，确保同时包括所有其他供应商特定属性
+  "css.lint.compatibleVendorPrefixes": "ignore",
+
+  // 使用供应商特定前缀时，还应包括标准属性
+  "css.lint.vendorPrefix": "warning",
+
+  // 不要使用重复的样式定义
+  "css.lint.duplicateProperties": "ignore",
+
+  // 不要使用空规则集
+  "css.lint.emptyRules": "warning",
+
+  // Import 语句不会并行加载
+  "css.lint.importStatement": "ignore",
+
+  // 使用边距或边框时，不要使用宽度或高度
+  "css.lint.boxModel": "ignore",
+
+  // 已知通配选择符 (*) 慢
+  "css.lint.universalSelector": "ignore",
+
+  // 零不需要单位
+  "css.lint.zeroUnits": "ignore",
+
+  // @font-face 规则必须定义 "src" 和 "font-family" 属性
+  "css.lint.fontFaceProperties": "warning",
+
+  // 十六进制颜色必须由三个或六个十六进制数字组成
+  "css.lint.hexColorLength": "error",
+
+  // 参数数量无效
+  "css.lint.argumentsInColorFunction": "error",
+
+  // 未知的属性。
+  "css.lint.unknownProperties": "warning",
+
+  // 仅当支持 IE7 及更低版本时，才需要 IE hack
+  "css.lint.ieHack": "ignore",
+
+  // 未知的供应商特定属性。
+  "css.lint.unknownVendorSpecificProperties": "ignore",
+
+  // 因显示而忽略属性。例如，使用 "display: inline"时，宽度、高度、上边距、下边距和 float 属性将不起作用
+  "css.lint.propertyIgnoredDueToDisplay": "warning",
+
+  // 避免使用 !important。它表明整个 CSS 的特异性已经失去控制且需要重构。
+  "css.lint.important": "ignore",
+
+  // 避免使用“float”。浮动会带来脆弱的 CSS，如果布局的某一方面更改，将很容易破坏 CSS。
+  "css.lint.float": "ignore",
+
+  // 选择器不应包含 ID，因为这些规则与 HTML 的耦合过于紧密。
+  "css.lint.idSelector": "ignore",
+
+  // Traces the communication between VS Code and the CSS language server.
+  "css.trace.server": "off",
+
+
+  // Controls SCSS validation and problem severities.
+  // 启用或禁用所有验证
+  "scss.validate": true,
+
+  // 启用或禁用颜色修饰器
+  "scss.colorDecorators.enable": true,
+
+  // 使用供应商特定前缀时，确保同时包括所有其他供应商特定属性
+  "scss.lint.compatibleVendorPrefixes": "ignore",
+
+  // 使用供应商特定前缀时，还应包括标准属性
+  "scss.lint.vendorPrefix": "warning",
+
+  // 不要使用重复的样式定义
+  "scss.lint.duplicateProperties": "ignore",
+
+  // 不要使用空规则集
+  "scss.lint.emptyRules": "warning",
+
+  // Import 语句不会并行加载
+  "scss.lint.importStatement": "ignore",
+
+  // 使用边距或边框时，不要使用宽度或高度
+  "scss.lint.boxModel": "ignore",
+
+  // 已知通配选择符 (*) 慢
+  "scss.lint.universalSelector": "ignore",
+
+  // 零不需要单位
+  "scss.lint.zeroUnits": "ignore",
+
+  // @font-face 规则必须定义 "src" 和 "font-family" 属性
+  "scss.lint.fontFaceProperties": "warning",
+
+  // 十六进制颜色必须由三个或六个十六进制数字组成
+  "scss.lint.hexColorLength": "error",
+
+  // 参数数量无效
+  "scss.lint.argumentsInColorFunction": "error",
+
+  // 未知的属性。
+  "scss.lint.unknownProperties": "warning",
+
+  // 仅当支持 IE7 及更低版本时，才需要 IE hack
+  "scss.lint.ieHack": "ignore",
+
+  // 未知的供应商特定属性。
+  "scss.lint.unknownVendorSpecificProperties": "ignore",
+
+  // 因显示而忽略属性。例如，使用 "display: inline"时，宽度、高度、上边距、下边距和 float 属性将不起作用
+  "scss.lint.propertyIgnoredDueToDisplay": "warning",
+
+  // 避免使用 !important。它表明整个 CSS 的特异性已经失去控制且需要重构。
+  "scss.lint.important": "ignore",
+
+  // 避免使用“float”。浮动会带来脆弱的 CSS，如果布局的某一方面更改，将很容易破坏 CSS。
+  "scss.lint.float": "ignore",
+
+  // 选择器不应包含 ID，因为这些规则与 HTML 的耦合过于紧密。
+  "scss.lint.idSelector": "ignore",
+
+
+  // Controls LESS validation and problem severities.
+  // 启用或禁用所有验证
+  "less.validate": true,
+
+  // 启用或禁用颜色修饰器
+  "less.colorDecorators.enable": true,
+
+  // 使用供应商特定前缀时，确保同时包括所有其他供应商特定属性
+  "less.lint.compatibleVendorPrefixes": "ignore",
+
+  // 使用供应商特定前缀时，还应包括标准属性
+  "less.lint.vendorPrefix": "warning",
+
+  // 不要使用重复的样式定义
+  "less.lint.duplicateProperties": "ignore",
+
+  // 不要使用空规则集
+  "less.lint.emptyRules": "warning",
+
+  // Import 语句不会并行加载
+  "less.lint.importStatement": "ignore",
+
+  // 使用边距或边框时，不要使用宽度或高度
+  "less.lint.boxModel": "ignore",
+
+  // 已知通配选择符 (*) 慢
+  "less.lint.universalSelector": "ignore",
+
+  // 零不需要单位
+  "less.lint.zeroUnits": "ignore",
+
+  // @font-face 规则必须定义 "src" 和 "font-family" 属性
+  "less.lint.fontFaceProperties": "warning",
+
+  // 十六进制颜色必须由三个或六个十六进制数字组成
+  "less.lint.hexColorLength": "error",
+
+  // 参数数量无效
+  "less.lint.argumentsInColorFunction": "error",
+
+  // 未知的属性。
+  "less.lint.unknownProperties": "warning",
+
+  // 仅当支持 IE7 及更低版本时，才需要 IE hack
+  "less.lint.ieHack": "ignore",
+
+  // 未知的供应商特定属性。
+  "less.lint.unknownVendorSpecificProperties": "ignore",
+
+  // 因显示而忽略属性。例如，使用 "display: inline"时，宽度、高度、上边距、下边距和 float 属性将不起作用
+  "less.lint.propertyIgnoredDueToDisplay": "warning",
+
+  // 避免使用 !important。它表明整个 CSS 的特异性已经失去控制且需要重构。
+  "less.lint.important": "ignore",
+
+  // 避免使用“float”。浮动会带来脆弱的 CSS，如果布局的某一方面更改，将很容易破坏 CSS。
+  "less.lint.float": "ignore",
+
+  // 选择器不应包含 ID，因为这些规则与 HTML 的耦合过于紧密。
+  "less.lint.idSelector": "ignore",
+
+
+  // 允许在任何文件中设置断点
+  "debug.allowBreakpointsEverywhere": false,
+
+  // 调试会话结束时自动打开资源管理器视图
+  "debug.openExplorerOnEnd": false,
+
+  // 调试时，在编辑器中显示变量值内联
+  "debug.inlineValues": false,
+
+
+  // 启用/禁用默认 HTML 格式化程序(需要重启)
+  "html.format.enable": true,
+
+  // 每行最大字符数(0 = 禁用)。
+  "html.format.wrapLineLength": 120,
+
+  // 以逗号分隔的标记列表不应重设格式。"null" 默认为所有列于 https://www.w3.org/TR/html5/dom.html#phrasing-content 的标记。
+  "html.format.unformatted": "a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, label, map, object, q, samp, select, small, span, strong, sub, sup, textarea, tt, var",
+
+  // 以逗号分隔的标记列表，不应在其中重新设置内容的格式。"null" 默认为 "pre" 标记。
+  "html.format.contentUnformatted": "pre",
+
+  // 缩进 <head> 和 <body> 部分。
+  "html.format.indentInnerHtml": false,
+
+  // 是否要保留元素前面的现有换行符。仅适用于元素前，不适用于标记内或文本。
+  "html.format.preserveNewLines": true,
+
+  // 要保留在一个区块中的换行符的最大数量。对于无限制使用 "null"。
+  "html.format.maxPreserveNewLines": null,
+
+  // 格式和缩进 {{#foo}} 和 {{/foo}}。
+  "html.format.indentHandlebars": false,
+
+  // 以新行结束。
+  "html.format.endWithNewline": false,
+
+  // 标记列表，以逗号分隔，其前应有额外新行。"null" 默认为“标头、正文、/html”。
+  "html.format.extraLiners": "head, body, /html",
+
+  // 对属性进行换行。
+  "html.format.wrapAttributes": "auto",
+
+  // 配置内置 HTML 语言支持是否建议 Angular V1 标记和属性。
+  "html.suggest.angular1": true,
+
+  // 配置内置 HTML 语言支持是否建议 Ionic 标记、属性和值。
+  "html.suggest.ionic": true,
+
+  // 配置内置 HTML 语言支持是否建议 HTML5 标记、属性和值。
+  "html.suggest.html5": true,
+
+  // 配置内置的 HTML 语言支持是否对嵌入的脚本进行验证。
+  "html.validate.scripts": true,
+
+  // 配置内置的 HTML 语言支持是否对嵌入的样式进行验证。
+  "html.validate.styles": true,
+
+  // Traces the communication between VS Code and the HTML language server.
+  "html.trace.server": "off",
+
+
+  // 将当前项目中的 JSON 文件与架构关联起来
+  "json.schemas": [],
+
+  // 启用/禁用默认 JSON 格式化程序(需要重启)
+  "json.format.enable": true,
+
+  // Traces the communication between VS Code and the JSON language server.
+  "json.trace.server": "off",
+
+
+  // 要在 Markdown 预览中使用的 CSS 样式表的 URL 或本地路径列表。相对路径被解释为相对于资源管理器中打开的文件夹。如果没有任何打开的文件夹，则会被解释为相对于 Markdown 文件的位置。所有的 "" 需写为 "\"。
+  "markdown.styles": [],
+
+  // 设置如何在 Markdown 预览中呈现 YAML 扉页。“隐藏”会删除扉页。否则，扉页则被视为 Markdown 内容。
+  "markdown.previewFrontMatter": "hide",
+
+  // 控制 Markdown 预览中使用的字体系列。
+  "markdown.preview.fontFamily": "'Segoe WPC', 'Segoe UI', 'SFUIText-Light', 'HelveticaNeue-Light', sans-serif",
+
+  // 控制 Markdown 预览中使用的字号(以像素为单位)。
+  "markdown.preview.fontSize": 14,
+
+  // 控制 Markdown 预览中使用的行高。此数值与字号相关。
+  "markdown.preview.lineHeight": 1.6,
+
+  // 滚动 Markdown 预览以显示编辑器中当前所选的行。
+  "markdown.preview.scrollPreviewWithEditorSelection": true,
+
+  // 在 Markdown 预览中标记当前的编辑器选定内容。
+  "markdown.preview.markEditorSelection": true,
+
+  // 当 Markdown 预览滚动时，更新编辑器的视图。
+  "markdown.preview.scrollEditorWithPreview": true,
+
+  // 在 Markdown 预览中双击切换到编辑器。
+  "markdown.preview.doubleClickToSwitchToEditor": true,
+
+
+  // 如果已启用内置 PHP 语言建议，则进行配置。此支持建议 PHP 全局变量和变量。
+  "php.suggest.basic": true,
+
+  // 启用/禁用内置的 PHP 验证。
+  "php.validate.enable": true,
+
+  // 指向 PHP 可执行文件。
+  "php.validate.executablePath": null,
+
+  // 不管 linter 是在 save 还是在 type 上运行。
+  "php.validate.run": "onSave",
+
+
+  // 指定包含要使用的 tsserver 和 lib*.d.ts 文件的文件夹路径。
+  "typescript.tsdk": null,
+
+  // 禁用自动获取类型。需要 TypeScript >= 2.0.6，并且更改后需要重启。
+  "typescript.disableAutomaticTypeAcquisition": false,
+
+  // 检查全局安装的 TypeScript 编译器(例如 tsc )是否不同于使用的 TypeScript 语言服务。
+  "typescript.check.tscVersion": true,
+
+  // 启用/禁用引用 CodeLens。
+  "typescript.referencesCodeLens.enabled": false,
+
+  // 对发送到 TS 服务器的消息启用跟踪。
+  "typescript.tsserver.trace": "off",
+
+  // 完成函数的参数签名。
+  "typescript.useCodeSnippetsOnMethodSuggest": false,
+
+  // 启用/禁用 TypeScript 验证。
+  "typescript.validate.enable": true,
+
+  // 启用/禁用默认 TypeScript 格式化程序。
+  "typescript.format.enable": true,
+
+  // 定义逗号分隔符后面的空格处理。
+  "typescript.format.insertSpaceAfterCommaDelimiter": true,
+
+  // 在 For 语句中，定义分号后面的空格处理。
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+
+  // 定义二进制运算符后面的空格处理
+  "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+
+  // 定义控制流语句中关键字后面的空格处理。
+  "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+
+  // 定义匿名函数的函数关键字后面的空格处理。
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+
+  // 定义非空圆括号的左括号后面和右括号前面的空格处理。
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+
+  // 定义非空方括号的左括号后面和右括号前面的空格处理。
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+
+  // 定义模板字符串的左括号后面和右括号前面的空格处理。要求 TypeScript >= 2.0.6。
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+
+  // 定义 JSX 表达式左括号后面和右括号前面的空格处理。要求 TypeScript >= 2.0.6。
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+
+  // 定义函数的左大括号是否放置在新的一行。
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+
+  // 定义控制块的左括号是否放置在新的一行。
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+
+  // 启用/禁用 JavaScript 验证。
+  "javascript.validate.enable": true,
+
+  // 启用/禁用 JavaScript 格式化程序。
+  "javascript.format.enable": true,
+
+  // 定义逗号分隔符后面的空格处理。
+  "javascript.format.insertSpaceAfterCommaDelimiter": true,
+
+  // 在 For 语句中，定义分号后面的空格处理。
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+
+  // 定义二进制运算符后面的空格处理
+  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+
+  // 定义控制流语句中关键字后面的空格处理。
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+
+  // 定义匿名函数的函数关键字后面的空格处理。
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+
+  // 定义非空圆括号的左括号后面和右括号前面的空格处理。
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+
+  // 定义非空方括号的左括号后面和右括号前面的空格处理。
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+
+  // 定义模板字符串的左括号后面和右括号前面的空格处理。要求 TypeScript >= 2.0.6。
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+
+  // 定义 JSX 表达式左括号后面和右括号前面的空格处理。要求 TypeScript >= 2.0.6。
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+
+  // 定义函数的左大括号是否放置在新的一行。
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+
+  // 定义控制块的左括号是否放置在新的一行。
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+
+
+  // 自动更新扩展
+  "extensions.autoUpdate": false,
+
+
+  // 终端在 Linux 上使用的 shell 的路径。
+  "terminal.integrated.shell.linux": "sh",
+
+  // 在 Linux 终端上时要使用的命令行参数。
+  "terminal.integrated.shellArgs.linux": [],
+
+  // 终端在 OS X 上使用的 shell 的路径。
+  "terminal.integrated.shell.osx": "sh",
+
+  // 在 OS X 终端上时要使用的命令行参数。
+  "terminal.integrated.shellArgs.osx": [],
+
+  // 终端在 Windows 上使用的 shell 的路径。使用随 Windows 一起提供的 shell 时(cmd、PowerShell 或 Ubuntu 上的 Bash)，相对 C:\Windows\System32，首选 C:\Windows\sysnative 以使用 64 位版本。
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+
+  // 在 Windows 终端上时使用的命令行参数。
+  "terminal.integrated.shellArgs.windows": [],
+
+  // 设置后，在终端内右键单击时，这将阻止显示上下文菜单，相反，它将在有选项时进行复制，并且在没有选项时进行粘贴。
+  "terminal.integrated.rightClickCopyPaste": true,
+
+  // 控制终端的字体系列，这在编辑器中是默认的。fontFamily 的值。
+  "terminal.integrated.fontFamily": "",
+
+  // 控制是否在终端中启用字体连字。
+  "terminal.integrated.fontLigatures": false,
+
+  // 控制终端的字号(以像素为单位)。
+  "terminal.integrated.fontSize": 14,
+
+  // 控制终端的行高，此数字乘以终端字号得到实际行高(以像素表示)。
+  "terminal.integrated.lineHeight": 1.2,
+
+  // 控制终端游标是否闪烁。
+  "terminal.integrated.cursorBlinking": false,
+
+  // 控制终端游标的样式。
+  "terminal.integrated.cursorStyle": "block",
+
+  // 控制终端保持在缓冲区的最大行数。
+  "terminal.integrated.scrollback": 1000,
+
+  // 控制是否在终端启动时设置区域设置变量，在 OS X 上默认设置为 true，在其他平台上为 false。
+  "terminal.integrated.setLocaleVariables": false,
+
+  // 将在其中启动终端的一个显式起始路径，它用作 shell 进程的当前工作目录(cwd)。当根目录为不方便的 cwd 时，此路径在工作区设置中可能十分有用。
+  "terminal.integrated.cwd": "",
+
+  // 一组命令 ID，其键绑定不发送到 shell 而始终由 Code 处理。这使得通常由 shell 使用的键绑定的使用效果与未将终端设为焦点时相同，例如按 Ctrl+P 启动 Quick Open。
+  "terminal.integrated.commandsToSkipShell": [
+    "editor.action.toggleTabFocusMode",
+    "workbench.action.debug.continue",
+    "workbench.action.debug.restart",
+    "workbench.action.debug.run",
+    "workbench.action.debug.start",
+    "workbench.action.debug.stop",
+    "workbench.action.openNextRecentlyUsedEditorInGroup",
+    "workbench.action.openPreviousRecentlyUsedEditorInGroup",
+    "workbench.action.quickOpen",
+    "workbench.action.showCommands",
+    "workbench.action.terminal.clear",
+    "workbench.action.terminal.copySelection",
+    "workbench.action.terminal.focus",
+    "workbench.action.terminal.focusAtIndex1",
+    "workbench.action.terminal.focusAtIndex2",
+    "workbench.action.terminal.focusAtIndex3",
+    "workbench.action.terminal.focusAtIndex4",
+    "workbench.action.terminal.focusAtIndex5",
+    "workbench.action.terminal.focusAtIndex6",
+    "workbench.action.terminal.focusAtIndex7",
+    "workbench.action.terminal.focusAtIndex8",
+    "workbench.action.terminal.focusAtIndex9",
+    "workbench.action.terminal.focusNext",
+    "workbench.action.terminal.focusPrevious",
+    "workbench.action.terminal.kill",
+    "workbench.action.terminal.new",
+    "workbench.action.terminal.paste",
+    "workbench.action.terminal.runActiveFile",
+    "workbench.action.terminal.runSelectedText",
+    "workbench.action.terminal.scrollDown",
+    "workbench.action.terminal.scrollDownPage",
+    "workbench.action.terminal.scrollToBottom",
+    "workbench.action.terminal.scrollToTop",
+    "workbench.action.terminal.scrollUp",
+    "workbench.action.terminal.scrollUpPage",
+    "workbench.action.terminal.toggleTerminal"
+  ],
+
+
+  // 自定义要在 Windows 上运行的终端。
+  "terminal.external.windowsExec": "%COMSPEC%",
+
+  // 自定义要在 OS X 上运行的终端应用程序。
+  "terminal.external.osxExec": "Terminal.app",
+
+  // 自定义要在 Linux 上运行的终端。
+  "terminal.external.linuxExec": "xterm",
+
+
+  // 控制问题预览是否应在打开文件时自动显示它们。
+  "problems.autoReveal": true,
+
+
+  // 启用要发送给 Microsoft 的故障报表。
+  // 此选项需重启才可生效。
+  "telemetry.enableCrashReporter": true,
+
+  // 启用要发送给 Microsoft 的使用情况数据和错误。
+  "telemetry.enableTelemetry": true,
+
+
+  // Controls the maximum number of problems reported.
+  "haskell.ghcMod.maxNumberOfProblems": 100,
+
+  // The full path to the ghc-mod executable, or 'stack' to use 'stack exec ghc-mod'.
+  "haskell.ghcMod.executablePath": "ghc-mod",
+
+  // Controls the onHover behavior. 'info' will display ghc-mod info, 'type' will display ghc-mod type, 'fallback' will try info and fallback to type, and 'none' will disable onHover tooltips.
+  "haskell.ghcMod.onHover": "fallback",
+
+  // Controls whether ghc-mod check is enabled or not
+  "haskell.ghcMod.check": "onSave",
+
+  // Controls the verbosity of logging. Logs can be seen in an output channel called 'ghc-mod server' or the chrome dev tools.
+  "haskell.ghcMod.logLevel": "error",
+
+  // Selects a symbol provider.
+  "haskell.symbols.provider": "none",
+
+  // Full path to the executable. Leave blank to use the default command for the selected provider (i.e. 'fast-tags'). Extension may behave unexpectedly if the symbol provider setting is for a different command than the path provided.
+  "haskell.symbols.executablePath": "",
+
+
+  // 针对 [go] 语言，配置替代编辑器设置。
+  "[go]": {
+    "editor.insertSpaces": false
+  },
+
+  // 针对 [makefile] 语言，配置替代编辑器设置。
+  "[makefile]": {
+    "editor.insertSpaces": false
+  },
+
+  // 针对 [markdown] 语言，配置替代编辑器设置。
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false
+  },
+
+  // 针对 [yaml] 语言，配置替代编辑器设置。
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+
+
+  // License setting for workspace. Available licenses are 'AGPLv3', 'AL2', 'BSD2', 'BSD3', 'GPLv2', 'GPLv3', 'LGPLv3', 'MIT', 'MPLv2', 'CC-BY-3', 'CC-BY-SA-3', 'CC-BY-ND-3', 'CC-BY-NC-3', 'CC-BY-NC-SA-3', 'CC-BY-NC-ND-3', 'CC-BY-4', 'CC-BY-SA-4', 'CC-BY-ND-4', 'CC-BY-NC-4', 'CC-BY-NC-SA-4', 'CC-BY-NC-ND-4', 'CC0-1'
+  "licenser.license": "AL2",
+
+  // Author name of the project.
+  "licenser.author": "",
+
+  // Project name of the workspace belong to. This is used for GPL license template. This property should be in 'Workspace Settings'.
+  "licenser.projectName": "",
+
+  // Priority to use single line comment style to multiple line comment style for license header.
+  "licenser.useSingleLineStyle": true,
+
+
+  // wandbox server url list ( first one is default wandbox server url )
+  "wandbox.Servers": [
+    "http://melpon.org/wandbox/",
+    "https://wandbox.fetus.jp/"
+  ],
+
+  // simplify post data when showing
+  "wandbox.simplifyPostData": true,
+
+  // when make a share url, auto open it
+  "wandbox.autoOpenShareUrl": true,
+
+  // output channel name
+  "wandbox.outputChannelName": "Wandbox",
+
+  // set language in wandbox by language in vscode
+  "wandbox.languageMapping": {
+    "bat": null,
+    "clojure": null,
+    "coffeescript": "CoffeeScript",
+    "c": "C",
+    "cpp": "C++",
+    "csharp": "C#",
+    "css": null,
+    "diff": null,
+    "dockerfile": null,
+    "fsharp": null,
+    "git-commit": null,
+    "git-rebase": null,
+    "go": null,
+    "groovy": "Groovy",
+    "handlebars": null,
+    "html": null,
+    "ini": null,
+    "java": "Java",
+    "javascript": "JavaScript",
+    "json": null,
+    "less": null,
+    "lua": "Lua",
+    "makefile": null,
+    "markdown": null,
+    "objective-c": null,
+    "perl": "Perl",
+    "perl6": null,
+    "php": "PHP",
+    "powershell": null,
+    "jade": null,
+    "python": "Python",
+    "r": null,
+    "razor": null,
+    "ruby": "Ruby",
+    "rust": "Rust",
+    "scss": null,
+    "sass": null,
+    "shaderlab": null,
+    "shellscript": "Bash script",
+    "sql": "SQL",
+    "swift": "Swift",
+    "typescript": null,
+    "vb": null,
+    "xml": null,
+    "xsl": null,
+    "yaml": null
+  },
+
+  // set compiler by language
+  "wandbox.languageCompilerMapping": {
+    "C": null,
+    "CoffeeScript": null,
+    "C++": null,
+    "C#": null,
+    "D": null,
+    "Erlang": null,
+    "Elixir": null,
+    "Groovy": null,
+    "Haskell": null,
+    "Java": null,
+    "JavaScript": null,
+    "Lazy K": null,
+    "Lisp": null,
+    "Lua": null,
+    "Pascal": null,
+    "PHP": null,
+    "Perl": null,
+    "Python": null,
+    "Ruby": null,
+    "Rill": null,
+    "Rust": null,
+    "Scala": null,
+    "Bash script": null,
+    "SQL": null,
+    "Swift": null,
+    "Vim script": null
+  },
+
+  // set compiler by file extension
+  "wandbox.extensionCompilerMapping": {
+    "c": null,
+    "coffee": null,
+    "cpp": null,
+    "cs": null,
+    "cxx": null,
+    "d": null,
+    "erl": null,
+    "ex": null,
+    "exs": null,
+    "groovy": null,
+    "gvy": null,
+    "hs": null,
+    "java": null,
+    "js": null,
+    "lazy": null,
+    "lisp": null,
+    "lua": null,
+    "pas": null,
+    "php": null,
+    "pl": null,
+    "py": null,
+    "rb": null,
+    "rill": null,
+    "rs": null,
+    "scala": null,
+    "sh": null,
+    "sql": null,
+    "swift": null,
+    "vim": null
+  },
+
+  // set compiler by file extension
+  "wandbox.extensionLanguageMapping": {
+    "c": "C",
+    "coffee": "CoffeeScript",
+    "cpp": "C++",
+    "cs": "C#",
+    "cxx": "C++",
+    "d": "D",
+    "erl": "Erlang",
+    "ex": "Elixir",
+    "exs": "Elixir",
+    "groovy": "Groovy",
+    "gvy": "Groovy",
+    "hs": "Haskell",
+    "java": "Java",
+    "js": "JavaScript",
+    "lazy": "Lazy K",
+    "lisp": "Lisp",
+    "lua": "Lua",
+    "pas": "Pascal",
+    "php": "PHP",
+    "pl": "Perl",
+    "py": "Python",
+    "rb": "Ruby",
+    "rill": "Rill",
+    "rs": "Rust",
+    "scala": "Scala",
+    "sh": "Bash script",
+    "sql": "SQL",
+    "swift": "Swift",
+    "vim": "Vim script"
+  },
+
+  // set options by compiler
+  "wandbox.options": {
+    "compiler(example)": "option1,option2"
+  },
+
+  // set raw option by compiler
+  "wandbox.compilerOptionRaw": {
+    "compiler(example)": "raw compile option text"
+  },
+
+  // set raw runtime option by compiler
+  "wandbox.runtimeOptionRaw": {
+    "compiler(example)": "raw runtime option text"
+  },
+
+  // set hello world files
+  "wandbox.helloWolrdFiles": [],
+
+  // set emoji
+  "wandbox.emoji": {
+    "stamp": "🐾",
+    "error": "🚫",
+    "warning": "⚠️",
+    "hint": "👉",
+    "signal": "🚦",
+    "link": "🔗",
+    "lap": "🏁",
+    "new": "✨️",
+    "checkedBox": "☑️",
+    "uncheckedBox": "⬜️",
+    "checkedRadio": "🔘",
+    "uncheckedRadio": "⚪️",
+    "edit": "✒️",
+    "menuSeparator": "─────────────────────────────────────────────"
+  },
+
+  // set max share history size
+  "wandbox.maxHistorySize": 256,
+
+
+  // Command line to execute stylish-haskell
+  "stylishHaskell.commandLine": "stylish-haskell",
+
+  // Run stylish-haskell on every save for Haskell files
+  "stylishHaskell.runOnSave": true,
+
+  // Show the command's output in the debug console on error
+  "stylishHaskell.showConsoleOnError": true,
+
+
+  // Specifies the hindent invocation with options.
+  "hindentFormat.command": "hindent",
+
+
+  // Specify the full path to `makensis`
+  "nsis.pathToMakensis": "makensis",
+
+  // Specify the default arguments for `makensis` - http://nsis.sourceforge.net/Docs/Chapter3.html#usage
+  "nsis.compilerArguments": null,
+
+  // Show build notifications indicating success or failure
+  "nsis.showNotifications": true,
+
+  // If `false` the output channel will only be shown on errors
+  "nsis.alwaysShowOutput": true,
+
+  // Specify whether to open the newly created build task
+  "nsis.alwaysOpenBuildTask": true,
+
+  // Specify the full path to `nsL.jar`
+  "nsis.nsl.pathToJar": null,
+
+  // Specify the default arguments for nsL Assembler
+  "nsis.nsl.customArguments": "/nomake /nopause",
+
+  // Specify the full path to `BridleNSIS.jar`
+  "nsis.bridlensis.pathToJar": null,
+
+  // Specify the default arguments for BridleNSIS
+  "nsis.bridlensis.customArguments": "",
+
+  // Specify the NSIS home directory (tried to detect automatically if not specified)
+  "nsis.bridlensis.nsisHome": "",
+
+
+  // Provide code completion.
+  "haskelly.codeCompletion": true,
+
+  // Show the GHCi button.
+  "haskelly.buttons.ghci": true,
+
+  // Show the Run file button.
+  "haskelly.buttons.runFile": true,
+
+  // Show the QuickCheck button.
+  "haskelly.buttons.quickcheck": true,
+
+  // Show the Stack run button.
+  "haskelly.buttons.stackRun": true,
+
+  // Show the Stack build button.
+  "haskelly.buttons.stackBuild": true,
+
+  // Show the Stack test button.
+  "haskelly.buttons.stackTest": true,
+
+  // Hide code completion suggestion if there's a snippet.
+  "haskelly.snippets.important": false,
+
+  // Add your custom snippets following the appropiate syntax.
+  "haskelly.snippets.custom": {},
+
+  // Points to the hlint exectuable.
+  "haskell.hlint.executablePath": "hlint",
+
+  // Whether the linter is run on save or on type or disabled.
+  "haskell.hlint.run": "onType",
+
+  // Which hint arguments should be used when calling hlint.
+  "haskell.hlint.hints": [],
+
+  // List of hints to be ignored
+  "haskell.hlint.ignore": [],
+
+  // Controls the verbosity of logging. Logs can be seen in the console by opening the dev tools. `log` is the most verbose and `error` will only show critical errors
+  "haskell.hlint.logLevel": "error",
+
+}
