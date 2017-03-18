@@ -18,3 +18,4 @@
 **/*.stack-work/
 **/cabal.project.local
 **/*.glade
+.vscode

@@ -2,9 +2,9 @@
 
 module RecursiveContents (getRecursiveContents) where
 
-import Control.Monad (forM)
-import System.Directory (doesDirectoryExist, getDirectoryContents)
-import System.FilePath ((</>))
+import           Control.Monad    (forM)
+import           System.Directory (doesDirectoryExist, getDirectoryContents)
+import           System.FilePath  ((</>))
 
 getRecursiveContents :: FilePath -> IO [FilePath]
 

@@ -1,7 +1,7 @@
 {
 
   // 以像素为单位控制字号。
-  "editor.fontSize": 14,
+  "editor.fontSize": 20,
 
   // 控制已更新文件的自动保存。接受的值:“off”、"afterDelay”、“onFocusChange”(编辑器失去焦点)、“onWindowChange”(窗口失去焦点)。如果设置为“afterDelay”，则可在 "files.autoSaveDelay" 中配置延迟。
   "files.autoSave": "off",
@@ -49,7 +49,7 @@
   "editor.fontWeight": "normal",
 
   // 以像素为单位控制字号。
-  "editor.fontSize": 14,
+  "editor.fontSize": 20,
 
   // 控制行高。使用 0 通过字号计算行高。
   "editor.lineHeight": 0,
@@ -140,7 +140,7 @@
   "editor.wordBasedSuggestions": true,
 
   // 建议小组件的字号
-  "editor.suggestFontSize": 0,
+  "editor.suggestFontSize": 20,
 
   // 建议小组件的行高
   "editor.suggestLineHeight": 0,
@@ -709,7 +709,7 @@
   "markdown.preview.fontFamily": "'Segoe WPC', 'Segoe UI', 'SFUIText-Light', 'HelveticaNeue-Light', sans-serif",
 
   // 控制 Markdown 预览中使用的字号(以像素为单位)。
-  "markdown.preview.fontSize": 14,
+  "markdown.preview.fontSize": 20,
 
   // 控制 Markdown 预览中使用的行高。此数值与字号相关。
   "markdown.preview.lineHeight": 1.6,
@@ -869,7 +869,7 @@
   "terminal.integrated.fontLigatures": false,
 
   // 控制终端的字号(以像素为单位)。
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 20,
 
   // 控制终端的行高，此数字乘以终端字号得到实际行高(以像素表示)。
   "terminal.integrated.lineHeight": 1.2,
